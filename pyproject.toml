@@ -1,0 +1,26 @@
+[project]
+name = "run-on-k8s"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docker>=7.1.0",
+    "kubernetes",
+    "numpy>=2.0.2",
+    "pandas>=2.3.1",
+    "pillow>=11.3.0",
+    "python-on-whales>=0.78.0",
+    "scikit-learn>=1.6.1",
+    "torch>=2.7.1",
+    "transformers>=4.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
+    "pytest-kubernetes>=0.6.0",
+]
+
+[tool.uv]
+package = true

@@ -1,0 +1,8 @@
+- [x] Run a single function with no dependencies on k8s default context;
+- [x] Run a function with dependencies;
+- [x] Arguments pass-in and return
+- [+-] Lifecycle (logging back to client, on k8s error exit, etc);
+- [ ] Configuration - context, registry, etc
+- [ ] Access control - run in specific namespace?
+- [ ] Offload image building to k8s itself
+- [ ] Make sure context is correctly set
